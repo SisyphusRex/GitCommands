@@ -34,3 +34,6 @@ Merge branch to main:
 
 Delete branch:
     1. git branch -d <name>
+
+Paste
+    shift + insert
