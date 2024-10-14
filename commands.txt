@@ -37,3 +37,29 @@ Delete branch:
 
 Paste
     shift + insert
+
+Add .gitignore
+    touch .gitignore
+    code .gitignore
+
+reset git add before commit
+    git reset
+
+show current staged files
+    git status
+
+Virtual Environment:
+    1. get in project directory
+    2. Create
+        python -m venv .venv
+    3. Activate
+        . .venv/scripts/Activate
+    4. install packages/do work
+        python -m pip install <package>
+    5. save requirements
+        python -m pip freeze > requirements.txt
+    6. deactivate
+        deactivate
+
+    install venv from requirements:
+        python -m pip install -r requirements.txt
