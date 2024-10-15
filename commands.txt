@@ -64,4 +64,8 @@ Virtual Environment:
     install venv from requirements:
         python -m pip install -r requirements.txt
 
-    y
+Java commands:
+    compile:
+        javac -d . *.java
+    run:
+        java <package>.<bootstrapfile>
