@@ -24,6 +24,9 @@ Show commit history:
 Undo changes since last commit:
     git checkout .
 
+Discard local changes to all files:
+    git reset --hard
+
 Create Branch:
     1. git branch <name>
     2. git checkout <name>
