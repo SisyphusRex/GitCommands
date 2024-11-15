@@ -7,6 +7,11 @@ To Set up Username and email after downloading git bash:
 Change Text Editor
     git config --global core.editor <notepad>
 
+Copy:
+    ctrl + insert
+Paste:
+    shift + insert
+
 To create a git repository:
     1. Create repository on Github
     2. Copy repo url
