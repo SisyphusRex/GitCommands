@@ -1,5 +1,12 @@
 This is a collection of git commands.
 
+To Set up Username and email after downloading git bash:
+    git config --global user.name "<name>"
+    git config --global user.email <email>
+
+Change Text Editor
+    git config --global core.editor <notepad>
+
 To create a git repository:
     1. Create repository on Github
     2. Copy repo url
