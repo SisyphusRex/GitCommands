@@ -1,5 +1,10 @@
 This is a collection of git commands.
 
+Make Terminal not Ugly:
+    go to dbarneskvcc github
+    get gitdotbash files
+    paste them in home directory
+
 To Set up Username and email after downloading git bash:
     git config --global user.name "<name>"
     git config --global user.email <email>
