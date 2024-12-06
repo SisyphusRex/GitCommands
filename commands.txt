@@ -55,6 +55,9 @@ Merge branch to main:
         git checkout main
     2. git merge <branch name>
 
+Show Branches:
+    1. git branch -a
+
 Delete branch:
     1. git branch -d <name>
 
