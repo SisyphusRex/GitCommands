@@ -95,3 +95,9 @@ Java commands:
         javac -d . *.java
     run:
         java <package>.<bootstrapfile>
+
+Change Remote Repository:
+    1. Create new repo
+    2. git remote remove origin
+    3. git remote add origin <new repo url>
+    4. git push -u origin master
