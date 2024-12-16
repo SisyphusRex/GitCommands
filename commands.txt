@@ -102,5 +102,5 @@ Change Remote Repository:
     3. git remote add origin <new repo url>
     4. git push -u origin master
     OR
-    3. git branch -M main
-    4. git push -u origin main
+    4. git branch -M main
+    5. git push -u origin main
