@@ -107,3 +107,13 @@ Change Remote Repository:
     OR
     4. git branch -M main
     5. git push -u origin main
+
+Merge Conflict:
+    1. be sure to git pull before adding code
+    2. but if you forget and have Conflict
+    3. git status
+    4. open problem file
+    5. accept changes or not
+    6. git add .
+    7. git commit -m "merge conflict"
+    8. git push
