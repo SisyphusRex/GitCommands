@@ -1,5 +1,22 @@
 This is a collection of git commands.
 
+Make Terminal not Ugly:
+    go to dbarneskvcc github
+    get gitdotbash files
+    paste them in home directory
+
+To Set up Username and email after downloading git bash:
+    git config --global user.name "<name>"
+    git config --global user.email <email>
+
+Change Text Editor
+    git config --global core.editor <notepad>
+
+Copy:
+    ctrl + insert
+Paste:
+    shift + insert
+
 To create a git repository:
     1. Create repository on Github
     2. Copy repo url
@@ -15,11 +32,17 @@ To push to github:
         OR git commit -m "<commit message>"
     3. git push
 
+To Push New Branch:
+    git push -u origin <branch name>
+
 Show commit history:
     git log
 
 Undo changes since last commit:
     git checkout .
+
+Discard local changes to all files:
+    git reset --hard
 
 Create Branch:
     1. git branch <name>
@@ -31,6 +54,9 @@ Merge branch to main:
     1. Move to main
         git checkout main
     2. git merge <branch name>
+
+Show Branches:
+    1. git branch -a
 
 Delete branch:
     1. git branch -d <name>
@@ -72,3 +98,12 @@ Java commands:
 
 Open a file (example html):
     start <filename.extension>
+
+Change Remote Repository:
+    1. Create new repo
+    2. git remote remove origin
+    3. git remote add origin <new repo url>
+    4. git push -u origin master
+    OR
+    4. git branch -M main
+    5. git push -u origin main
