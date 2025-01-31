@@ -69,3 +69,6 @@ Java commands:
         javac -d . *.java
     run:
         java <package>.<bootstrapfile>
+
+Open a file (example html):
+    start <filename.extension>
