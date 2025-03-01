@@ -117,3 +117,23 @@ Merge Conflict:
     6. git add .
     7. git commit -m "merge conflict"
     8. git push
+
+    In File:
+        <<<<<<< Head  to
+        .....
+        ....
+        ========
+            is your code changes
+
+        ========= to
+        ....
+        ....
+        >>>>>>>>
+            are other conflicting changes
+
+    step 1:
+        remove git metadata
+    Step 2:
+        change code to suit needs
+    Step 3:
+        commit new changes
