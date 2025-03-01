@@ -145,3 +145,9 @@ Reset code:
     4. git reset --hard <hash>
     OR
     1. git reset --hard origin/main
+
+Download file to current directory:
+    curl <https://.....> --ouput <filename>.<filetype>
+
+Unzip
+    unzip <filename>.zip
