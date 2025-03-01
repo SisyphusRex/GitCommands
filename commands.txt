@@ -137,3 +137,11 @@ Merge Conflict:
         change code to suit needs
     Step 3:
         commit new changes
+
+Reset code:
+    1. git log
+    2. find the commit you want hash
+    3. press 'q' to exit git log
+    4. git reset --hard <hash>
+    OR
+    1. git reset --hard origin/main
