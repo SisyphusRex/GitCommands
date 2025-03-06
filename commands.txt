@@ -151,3 +151,9 @@ Download file to current directory:
 
 Unzip
     unzip <filename>.zip
+
+Python input hangs in terminal:
+    try running:
+        winpty python <program>.py
+    OR
+        uninstall and reinstall python (I had to because i'm not typing winpty over ./)
