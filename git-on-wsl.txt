@@ -1,0 +1,4 @@
+To get Git credentials to work on WSL:
+  *we must get credential manager from windows git
+  go to WSL cli
+  git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
