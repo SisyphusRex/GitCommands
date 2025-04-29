@@ -1,5 +1,9 @@
 This is a collection of git commands.
 
+Undo changes since last commit:
+    git reset HEAD --hard
+    git clean -fd
+
 Make Terminal not Ugly:
     go to dbarneskvcc github
     get gitdotbash files
