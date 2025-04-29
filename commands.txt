@@ -147,7 +147,7 @@ Reset code:
     1. git reset --hard origin/main
 
 Download file to current directory:
-    curl <https://.....> --ouput <filename>.<filetype>
+    curl <https://.....> --output <filename>.<filetype>
 
 Unzip
     unzip <filename>.zip
