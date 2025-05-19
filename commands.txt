@@ -20,6 +20,11 @@ Authentication:
 Change Text Editor
     git config --global core.editor <notepad>
 
+If git opens Nano
+    write message
+    ctrl + o   to save file
+    ctrl + x   to exit editor
+
 Copy:
     ctrl + insert
 Paste:
