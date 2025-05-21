@@ -71,8 +71,12 @@ Merge branch to main:
 Show Branches:
     1. git branch -a
 
-Delete branch:
+Delete branch remote:
+    1. git push -d origin <name>
+
+Delete branch locally:
     1. git branch -d <name>
+
 
 Paste
     shift + insert
