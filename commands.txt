@@ -14,8 +14,12 @@ To Set up Username and email after downloading git bash:
     git config --global user.email <email>
 
 Authentication:
-    when first trying to clone a repo on new machine, you will have to authenticate
-    git will save credentials to Windows Credential Manager
+    WINDOWS:
+        when first trying to clone a repo on new machine, you will have to authenticate
+        git will save credentials to Windows Credential Manager
+    LINUX:
+        have to generate token and use this as password
+        to generate, got to settings/developertools/generate token
 
 Change Text Editor
     git config --global core.editor <notepad>
