@@ -4,5 +4,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 ssh-keygen -t ed25519 -C "your_email@example.com"
 $ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
+nano .ssh/id_ed25519.pub
 ``
 copy public key and put in github
+** BE SURE TO COPY .pub, not PRIVATE KEY**
