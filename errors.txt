@@ -1,0 +1,3 @@
+When using ssh:
+  ssh: connect to host github.com port 22: Connection timed out
+  if using a public wifi, they may be blockin port 22
